@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>	
+  </ion-toolbar>
+  <ion-searchbar></ion-searchbar>
+</ion-header>
+
+<ion-content>
+	<ion-slides #mySlider pager="true" [options]="slideOpts">
+      <ion-slide>
+        <img src="assets/img/banner1.png" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/img/banner2.png" />
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/img/banner3.png" />
+      </ion-slide>
+    </ion-slides>
+	<h1 class="main-title">Shope by Category</h1>
+	<ion-grid class="product-grid">
+	  <ion-row align-items-start>
+		<ion-col size="6">
+		  <ion-card>
+			<img src="assets/img/apple.png" />
+		  <ion-card-header>
+			<ion-card-subtitle>Apple</ion-card-subtitle>
+		  </ion-card-header>
+
+		  <ion-card-content>
+			120
+		  </ion-card-content>
+		</ion-card>
+		</ion-col>
+		<ion-col size="6">
+		  <ion-card>
+			<img src="assets/img/apple.png" />
+		  <ion-card-header>
+			<ion-card-subtitle>Apple</ion-card-subtitle>
+		  </ion-card-header>
+
+		  <ion-card-content>
+			120
+		  </ion-card-content>
+		</ion-card>
+		</ion-col>
+		<ion-col size="6">
+		  <ion-card>
+			<img src="assets/img/apple.png" />
+		  <ion-card-header>
+			<ion-card-subtitle>Apple</ion-card-subtitle>
+		  </ion-card-header>
+
+		  <ion-card-content>
+			120
+		  </ion-card-content>
+		</ion-card>
+		</ion-col>
+		<ion-col size="6">
+		  <ion-card>
+			<img src="assets/img/apple.png" />
+		  <ion-card-header>
+			<ion-card-subtitle>Apple</ion-card-subtitle>
+		  </ion-card-header>
+
+		  <ion-card-content>
+			120
+		  </ion-card-content>
+		</ion-card>
+		</ion-col>
+	  </ion-row>
+	</ion-grid>
+</ion-content>
